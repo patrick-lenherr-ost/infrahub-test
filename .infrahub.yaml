@@ -1,10 +1,9 @@
----
 jinja2_transforms:
-  - name: my-jinja2-transform        # Unique name for your transform
-    description: "short description" # (optional)
-    query: "tags_query"              # Name or ID of the GraphQLQuery
-    template_path: "tags_tpl.j2"     # Path to the main Jinja2 template
+  - name: my-jinja2-transform
+    description: "short description"
+    query: "tags_query"
+    template_path: "tags_tpl.j2"
 
 queries:
-  - name: tags_query                 # Name of the GraphQLQuery
-    file_path: "tags_query.gql"      # Path to the main Jinja2 template
+  - name: tags_query
+    file_path: "tags_query.gql"
